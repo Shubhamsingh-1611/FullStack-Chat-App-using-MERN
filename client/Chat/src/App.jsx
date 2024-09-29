@@ -1,11 +1,11 @@
-
+import Conatiner from "./components/Conatiner.jsx"
 function App() {
  
 
   return (
-    <>
-  <h1 className="bg-orange-400">Hello</h1>
-    </>
+    <div className="bg-[#EFF6FC] h-[100vh] w-full ">
+        <Conatiner/>
+    </div>
   )
 }
 
